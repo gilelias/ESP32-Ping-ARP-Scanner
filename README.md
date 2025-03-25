@@ -50,9 +50,15 @@ It leverages **FreeRTOS tasks** to **scan multiple IP ranges in parallel**, impr
 
 ## Example Output
 ```
-Connected to WiFi IP Address: 192.168.1.100 Scanning subnet: 192.168.1.100/24 Total Usable IPs: 254, Task Split: 63 IPs per task
+Connected to WiFi 
+IP Address: 192.168.1.100
+Scanning subnet: 192.168.1.100/24 
+Total Usable IPs: 254, Task Split: 63 IPs per task
 
-Device Found: 192.168.1.2 Device IP: 192.168.1.2, MAC: AA:BB:CC:DD:EE:FF Device Found: 192.168.1.3 Device IP: 192.168.1.3, MAC: 11:22:33:44:55:66
+Device Found: 192.168.1.2 
+Device IP: 192.168.1.2, MAC: AA:BB:CC:DD:EE:FF 
+Device Found: 192.168.1.3 
+Device IP: 192.168.1.3, MAC: 1:22:33:44:55:66
 ```
 
 ## License
